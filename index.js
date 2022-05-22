@@ -936,7 +936,7 @@ await kagura.groupUpdateDescription(m.chat, text).then((res) => reply(mess.succe
 break
 case 'setbiobot':{
 if (!isCreator) return reply(mess.owner)
-if (args.length < 1) return reply(`Mau Di Ganti Apa\nContoh ${prefix + command} Lexxy Official`)
+if (args.length < 1) return reply(`Mau Di Ganti Apa\nContoh ${prefix + command} Zall Pesstore`)
 kagura.setStatus(q)
 .then((res) => reply('Bio diupdate.'))
 .catch((err) => reply('Gagal'))
@@ -3298,10 +3298,10 @@ reply("Succes Mengganti Menu "+q)
 break
 case 'menu': {
 if(typemenu == 'allmenu'){
-await kagura.send5ButImg(from, `` + '' + lang.menu(botname, pushname, salam, ownername, time, tanggal), `Wade in Indonesia, Palembang 🇲🇨`,thumb, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Github`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}}] )
+await kagura.send5ButImg(from, `` + '' + lang.menu(botname, pushname, salam, ownername, time, tanggal), `BOT MILIK ZALL PESSTORE ✅`,thumb, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Github`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}}] )
 }
 if(typemenu == 'simple'){
-await kagura.send5ButImg(from, `` + '' + lang.menusimpel(botname, pushname, salam, ownername, time, tanggal), `Wade in Indonesia, Palembang 🇲🇨`,thumb, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Github`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}}] )
+await kagura.send5ButImg(from, `` + '' + lang.menusimpel(botname, pushname, salam, ownername, time, tanggal), `BOT MILIK ZALL PESSTORE ✅`,thumb, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Github`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}}] )
 }
 }
 break
